@@ -1,0 +1,45 @@
+#root {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.portfolio {
+  width: 100%;
+}
+
+.toolbar {
+  margin: 20px 0;
+  color: #555555;
+  font-size: 17px;
+  list-style: none;
+
+}
+
+.toolbar__button {
+  display: inline-block;
+  padding: 7px 16px;
+  margin: 0 5px 0 0;
+  border: 1px solid #555555;
+}
+
+.toolbar__button:last-child {
+  margin: 0;
+}
+
+.toolbar__button_selected {
+  color: #ffffff;
+  font-weight: bold;
+  border-color: #ffffff;
+  background-color: #555555;
+}
+
+.portfolio__projects {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio img {
+  width: 100%;
+}
